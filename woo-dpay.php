@@ -97,8 +97,8 @@ function dpay_init_gateway_class()
                     'type'        => 'textarea'
                 ),
                 'currency_convert' => array(
-                    'title'       => 'VND rate',
-                    'type'        => 'number',
+                    'title'       => 'rate',
+                    'type'        => 'float',
                     'default'     => 1,
                 )
             );
