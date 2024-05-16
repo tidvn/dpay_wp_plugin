@@ -140,7 +140,7 @@ function dpay_init_gateway_class()
             $redirectUrl = get_home_url() . '/wc-api/dpay_redirect_url?orderId='.$order_id;
             $totalamount = $order->get_total() / $this->currency_convert;
             
-            $endpoint = 'https://api.dpay.tech/v1/gateway/create';
+            $endpoint = 'https://api-dpay.solm.me/v1/gateway/create';
             
             $token = $this->token;
             $orderInfo = 'Thanh toán đơn hàng ' . $order_id;
